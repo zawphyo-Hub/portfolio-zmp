@@ -9,7 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = '/CV.pdf';
+    const resumeUrl = '/portfolio-zmp/CV.pdf';
     window.open(resumeUrl);
   };
 

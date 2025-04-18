@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } from './components';
+import { About, Contact, Hero, Navbar, Works } from './components';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -16,6 +16,7 @@ const App = () => {
       
       <div className="relative z-0 bg-primary">
       <ToastContainer position="top-center" autoClose={3000}/>
+      <h1 style={{ color: 'white', textAlign: 'center' }}>Hello</h1>
       
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
