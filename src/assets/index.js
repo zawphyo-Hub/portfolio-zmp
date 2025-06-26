@@ -11,6 +11,9 @@ import java from "./tech-stack/java.png";
 import php from "./tech-stack/php.png";
 import mysql from "./tech-stack/mysql.png";
 import xamp from "./tech-stack/xamp.png";
+import springboot from "./tech-stack/springboot.png";
+import github1 from "./tech-stack/github1.png";
+import postgresql from "./tech-stack/postgresql.png";
 import bootstrap from "./tech-stack/bootstrap.png";
 
 // Import project images
@@ -31,6 +34,7 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
+
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
@@ -48,6 +52,9 @@ export {
   c,
   cpp,
   java,
+  springboot,
+  github1,
+  postgresql,
   php,
   mysql,
   github,

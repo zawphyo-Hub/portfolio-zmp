@@ -54,15 +54,16 @@ const Hero = () => {
             animate="visible"
             
         >
-            <motion.h4 className="home-page-heading" variants={childVariants}>
+            <motion.h3 className="home-page-heading" variants={childVariants}>
                 Hi, I am Zaw Min Phyo.
-            </motion.h4>
-            <motion.h4 className="home-page-heading" variants={childVariants}>
-                A Software Engineer,
-            </motion.h4>
+            </motion.h3>
+            <motion.h3 className="home-page-heading" variants={childVariants}>
+                Full-Stack | React + Spring Boot Developer,
+            </motion.h3>
             <motion.p className="home-page-p" variants={childVariants}>
                 passionate about building web applications and solving real-world problems with clean and efficient code.
             </motion.p>
+
         </motion.div>
       </div>
 

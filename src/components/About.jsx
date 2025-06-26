@@ -7,22 +7,22 @@ import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full">
+  <Tilt className="xs:w-[150px] w-full">
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      className="w-full green-pink-gradient p-[1px] rounded-[10px] shadow-card"
     >
       <div
         options={{
-          max: 45,
+          max: 35,
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[200px] flex justify-evenly items-center flex-col"
+        className="bg-tertiary rounded-[10px] py-5 px-112 min-h-[100px] flex justify-evenly items-center flex-col"
       >
-        <img src={icon} alt="web-development" className="w-11 h-11 object-contain" loading="lazy" />
+        <img src={icon} alt="web-development" className="w-7 h-7 object-contain" loading="lazy" />
 
-        <h3 className="text-white text-[18px] font-bold text-center">{title}</h3>
+        <h3 className="text-white text-[12px] font-bold text-center">{title}</h3>
       </div>
     </motion.div>
   </Tilt>
@@ -41,8 +41,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a student, studying a Bachelor Degree in Computing at Oxford Brookes University in England. 
-        I am a Passionate and detail-oriented full stack developer, proficient in frontend development 
-        (React.js, HTML, CSS, and JavaScript) and backend (PHP, Python, Node.js, and SQL). 
+        I am a Passionate and detail-oriented full-stack developer, proficient in frontend development 
+        (React.js, HTML, CSS, and JavaScript) and backend (Java, Spring boot and SQL). 
         
       </motion.p>
 

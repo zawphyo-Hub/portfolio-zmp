@@ -3,6 +3,9 @@ import {
   php,
   python,
   java,
+  github1,
+  postgresql,
+  springboot,
   cpp,
   mysql,
   javascript,
@@ -48,12 +51,13 @@ export const navLinks = [
 export const services = [
   { title: "Java Script", icon: javascript},
   { title: "PHP", icon: php },
-  { title: "Python", icon: python },
+  { title: "Java", icon: java },
   { title: "React.js", icon: reactjs },
-  
-  { title: "Node.js", icon: nodejs },
+  { title: "Spring boot", icon: springboot },
   { title: "MySQL", icon: mysql },
   { title: "Git", icon: git },
+  { title: "Github", icon: github1 },
+  { title: "PostgreSQL", icon: postgresql },
 ];
 
 export const technologies = [
